@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0024fe5348c3f46c68f7b0b11229ba6c, type: 3}
+  m_Name: RandomBox
+  m_EditorClassIdentifier: 
+  content:
+  - ID,ResourceName,Payment,MainType,Subtype,New,Sale,SalePrice,StartSalePeriod,EndSalePeriod,MarketCategory,Sorting,LimitLevel,Neighbors,PayMoney
+  - 130001,130001,2,16,1,1,1,0,,,14,130001,1,0,2500
+  - 130002,130002,3,16,1,1,1,0,,,14,130002,1,0,100
+  - 130003,130003,4,16,1,1,2,20,2015-06-02 12:00:00,2015-07-15 23:59:59,14,130003,1,0,50

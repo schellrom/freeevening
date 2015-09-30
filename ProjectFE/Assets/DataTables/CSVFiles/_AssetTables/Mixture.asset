@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0024fe5348c3f46c68f7b0b11229ba6c, type: 3}
+  m_Name: Mixture
+  m_EditorClassIdentifier: 
+  content:
+  - ID,ResourceName,Payment,MainType,Subtype,MaxStack,New,MarketCategory,Sorting,LimitLevel,Neighbors,PayMoney,SellMoney
+  - 110001,110001,2,14,1,99,1,1,110001,1,0,4000,400
+  - 110002,110002,2,14,1,99,1,1,110002,1,0,10000,1000
+  - 110003,110003,2,14,1,99,1,1,110003,1,0,20000,2000
+  - 110004,110004,2,14,1,99,1,1,110004,1,0,50000,5000
+  - 110005,110005,2,14,1,99,1,1,110005,1,0,6000,600
+  - 110006,110006,2,14,1,99,1,1,110006,1,0,40000,4000
+  - 110007,110007,2,14,1,99,1,1,110007,1,0,30000,3000
+  - 110008,110008,2,14,1,99,1,1,110008,1,0,25000,2500
