@@ -332,6 +332,8 @@
      <Compile Include="Assets\Resources\Spine\spine-unity\Assets\spine-unity\SkeletonDataAsset.cs" />
      <Compile Include="Assets\Resources\Spine\spine-unity\Assets\spine-unity\SkeletonExtensions.cs" />
      <Compile Include="Assets\Resources\Spine\spine-unity\Assets\spine-unity\SkeletonRenderer.cs" />
+     <Compile Include="Assets\Scripts\MultiResolutionUtil.cs" />
+     <Compile Include="Assets\Scripts\SceneMgr.cs" />
      <None Include="Assets\Resources\data\spine_skeleton\skeleton.atlas.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended.shader" />
