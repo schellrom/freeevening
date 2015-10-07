@@ -10,10 +10,12 @@
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
-  </PropertyGroup>
+	<TargetPath>Temp\bin\Debug\</TargetPath>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 	<DebugSymbols>true</DebugSymbols>
 	<DebugType>full</DebugType>
@@ -23,7 +25,9 @@
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
-  </PropertyGroup>
+	<TargetPath>Temp\bin\Debug\</TargetPath>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
 	<DebugType>pdbonly</DebugType>
 	<Optimize>true</Optimize>
@@ -31,7 +35,9 @@
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
-  </PropertyGroup>
+	<TargetPath>Temp\bin\Debug\</TargetPath>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
   <ItemGroup>
 	<Reference Include="System" />
     <Reference Include="System.XML" />
@@ -45,6 +51,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\02.Scripts\MultiResolutionUtil.cs" />
+     <Compile Include="Assets\02.Scripts\SceneMgr.cs" />
      <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\EffectScriptSample.cs" />
      <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDetachObject.cs" />
      <Compile Include="Assets\IGSoft_Resources\Scripts\NcEffect\Common\NcDisableDelayActive.cs" />
@@ -332,8 +340,6 @@
      <Compile Include="Assets\Resources\Spine\spine-unity\Assets\spine-unity\SkeletonDataAsset.cs" />
      <Compile Include="Assets\Resources\Spine\spine-unity\Assets\spine-unity\SkeletonExtensions.cs" />
      <Compile Include="Assets\Resources\Spine\spine-unity\Assets\spine-unity\SkeletonRenderer.cs" />
-     <Compile Include="Assets\Scripts\MultiResolutionUtil.cs" />
-     <Compile Include="Assets\Scripts\SceneMgr.cs" />
      <None Include="Assets\Resources\data\spine_skeleton\skeleton.atlas.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended.shader" />
@@ -433,5 +439,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
