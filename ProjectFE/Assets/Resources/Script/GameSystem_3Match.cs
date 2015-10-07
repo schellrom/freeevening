@@ -49,7 +49,7 @@ public class GameSystem_3Match : MainGameSystem {
 		float height = trans.localScale.y;
 #endif
 		return new Vector2(
-				(x*_tileSize.x) + trans.localPosition.x - width/2 + _tileSize.x/2 + _boardPadding.x + _tilesMargin.x * x,
+				(x * _tileSize.x) + trans.localPosition.x - width/2 + _tileSize.x/2 + _boardPadding.x + _tilesMargin.x * x,
 				((_tilesNum.y-y-1)*_tileSize.y) + trans.localPosition.y - height/2 + _tileSize.y/2 + _boardPadding.y+ _tilesMargin.y * y
 			);
 	}

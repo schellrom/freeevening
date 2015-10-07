@@ -16,3 +16,5 @@
 /Users/lovejava/Documents/workspace/freeevening/ProjectFE/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/lovejava/Documents/workspace/freeevening/ProjectFE/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/lovejava/Documents/workspace/freeevening/ProjectFE/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/lovejava/Documents/workspace/freeevening/ProjectFE/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/lovejava/Documents/workspace/freeevening/ProjectFE/Temp/bin/Debug/UnityEngine.Analytics.dll
