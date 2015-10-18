@@ -1,0 +1,10 @@
+{
+    "XlsxList":["SystemTable", "UnitTable", "StageTable"],
+    
+    "OutputDirClient" : "client",
+    "OutputDirServer" : "server",
+    "OutputDirRemoveNMAke": true,
+
+    "FormatClient" : "csv",
+    "FormatServer" : "json"
+}
