@@ -1,1 +1,10 @@
-*.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo *.rej *~ #*# .#* .*.swp .DS_Store obj Temp *.suo *.user *.pidb *.userprefs *.csproj *.pidb *.sln *.csproj *.unityproj Library
+*.suo
+*.csproj
+*.unityproj
+*.sln
+obj
+Library
+Temp
+*.pidb
+*.userprefs
+*.DS_Store
